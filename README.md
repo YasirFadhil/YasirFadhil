@@ -1,5 +1,9 @@
 ## Hi there 👋
 
+<div align="center">
+  [![Spotify](https://ysirnf.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff)](https://open.spotify.com/user/serr)
+</div>
+
 <!--
 **YasirFadhil/YasirFadhil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
