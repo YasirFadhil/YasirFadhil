@@ -1,5 +1,5 @@
 <div align="center">
 
-[![Spotify](https://serrspoti.vercel.app/api/spotify)](https://open.spotify.com/user/serr)
+[![Spotify](https://novatorem-nu-two.vercel.app/api/spotify)](https://open.spotify.com/user/serr)
 
 </div>
