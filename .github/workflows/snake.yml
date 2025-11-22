@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake Game
 
 on:
   schedule:
@@ -18,8 +18,8 @@ jobs:
         with:
           github_user_name: YasirFadhil
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?palette=github&animation_duration=4&animation_delay=0.1&snake_length=15&animation_type=game
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&animation_duration=4&animation_delay=0.1&snake_length=15&animation_type=game
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
