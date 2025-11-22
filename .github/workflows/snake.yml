@@ -1,4 +1,4 @@
-name: Generate Snake Game
+name: Generate Retro Snake Game
 
 on:
   schedule:
@@ -10,23 +10,20 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - name: generate retro snake game animation
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: YasirFadhil
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=green&color_dots=white
+            dist/github-contribution-grid-snake.svg?palette=github-light&animation_duration=5&animation_delay=0.15&snake_length=20&animation_type=game&style=retro
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&animation_duration=5&animation_delay=0.15&snake_length=20&animation_type=game&style=retro&grid_color=%23161b22&snake_color=%2300ff41&food_color=%23ff6b6b&background_color=%230d1117
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push to output branch
+      - name: push retro snake game to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
