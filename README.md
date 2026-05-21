@@ -14,7 +14,7 @@
 <br>
 <div align="center">
   
-[![Spotify](https://serrspot.vercel.app/)](https://open.spotify.com/user/p8cdamryhgaq77dttqt13vjtz?si=2b13afbdb56542a8)
+[![Spotify](https://serrspot.vercel.app/)](https://open.spotify.com/user/p8cdamryhgaq77dttqt13vjtz?si=60c5d30193644b00)
 
 </div>
 
